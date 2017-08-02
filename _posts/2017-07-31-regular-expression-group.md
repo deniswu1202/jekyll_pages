@@ -3,7 +3,6 @@ layout: post
 title:  "浅谈正则表达式中的分组和引用"
 date:   2017-07-31 11:40:18 +0800
 categories: JavaScript
-tags: 正则 分组 Regular
 ---
 
 * content
