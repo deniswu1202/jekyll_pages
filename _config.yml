@@ -9,6 +9,7 @@
 title: YoWaa
 brief-intro: Software Engineer
 baseurl: "/jekyll_pages" # the subpath of your site, e.g. /blog
+url: "https://deniswu1202.github.io/jekyll_pages"
 
 permalink: /:year/:month/:day/:title/
 
