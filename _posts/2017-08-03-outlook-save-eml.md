@@ -13,5 +13,5 @@ The mail can only be saved as .msg format. The .msg file cannot be open by plain
 
 ## Solution
 As other MTA can save .eml format mails, we can use a fake MTA to receive the mail.
-![](https://drive.google.com/open?id=0B9rNZ0LfA7MMN3Zib2Y4aXFXY0k)
+![](https://raw.githubusercontent.com/deniswu1202/jekyll_pages/master/pic/20170803.1.png)
 
