@@ -8,8 +8,7 @@
 # Site settings
 title: YoWaa
 brief-intro: Software Engineer
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://deniswu1202.github.io"
+baseurl: "jekyll_pages" # the subpath of your site, e.g. /blog
 
 permalink: /:year/:month/:day/:title/
 
