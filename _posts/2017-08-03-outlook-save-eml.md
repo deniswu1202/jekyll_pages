@@ -13,5 +13,5 @@ The mail can only be saved as .msg format.
 
 ## Solution
 As other MTA can save .eml format mails, we can use a fake MTA to receive the mail.
-![34f9aba2a4815ddb0e62cd3a549b90bc](../pic/20170803.1.png)
+![34f9aba2a4815ddb0e62cd3a549b90bc](pic/20170803.1.png)
 
