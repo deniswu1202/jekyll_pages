@@ -20,5 +20,5 @@ Here using  hMailServer as SMTP server. Fake MTA is a SMTP server which can stor
 hMailServer configuration:
 http://www.azurecurve.co.uk/2015/09/hmailserver-connecting-outlook/
 Set the fake MTA IP as SMTP Relayer.
-![]()
+![](https://raw.githubusercontent.com/deniswu1202/jekyll_pages/master/pic/0803.png)
 
