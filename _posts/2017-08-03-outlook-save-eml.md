@@ -8,10 +8,10 @@ categories: MAIL
 {:toc}
 
 ## Problem
-Sometimes, we may need analyze mail. But Outlook cannot save file to .eml format. The mail can only be saved as .msg format. 
-The .msg file cannot be open by plain text.
+Sometimes, we may need analyze mail. But Outlook cannot save file to .eml format. 
+The mail can only be saved as .msg format. The .msg file cannot be open by plain text.
 
 ## Solution
 As other MTA can save .eml format mails, we can use a fake MTA to receive the mail.
-![](pic/20170803.1.png)
+![](https://drive.google.com/open?id=0B9rNZ0LfA7MMN3Zib2Y4aXFXY0k)
 
