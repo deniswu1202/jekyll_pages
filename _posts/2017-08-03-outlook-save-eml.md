@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Get an mail with .eml format from OUTLOOK"
+title:  "Get an mail with .eml format from Microsoft Outlook"
 date:   2017-08-03 19:18:00 +0800
 categories: MAIL
 ---
@@ -8,10 +8,10 @@ categories: MAIL
 {:toc}
 
 ## Problem
-Currently, I cannot get an mail with .eml format from OFFICE OUTLOOK.
-The mail can only be saved as .msg format.
+Sometimes, we may need analyze mail. But Outlook cannot save file to .eml format. The mail can only be saved as .msg format. 
+The .msg file cannot be open by plain text.
 
 ## Solution
 As other MTA can save .eml format mails, we can use a fake MTA to receive the mail.
-![34f9aba2a4815ddb0e62cd3a549b90bc](pic/20170803.1.png)
+![](pic/20170803.1.png)
 
