@@ -32,11 +32,11 @@ Find the median of the two sorted arrays. The overall run time complexity should
 
 ## Solution
 
-### [1]O(m)
-If the time complexity is O(m+n), that is relatively easy. Using two pointer poiting to the small postion of each array. Then find the first (m+n)/2 postion.  
+[1]O(m)
+If the time complexity is O(m+n), that is relatively easy. Using two pointer pointing to the small postion of each array. Then find the first (m+n)/2 postion.  
 The diffcult is how to deal with the length of the 2 array is even number that should be dealt with respectively.
 
-### [2]O(log (m+n))
+[2]O(log (m+n))
 
 The position of median is the first k of sorted array of the two arrays.  
 So this issue is changed to find the k-th element of the two arrays.
@@ -61,6 +61,7 @@ def findK(self, nums1, nums2, k):
     else:
         return self.findK(nums1, nums2[pn:], k-pn)
 ```
+The critical point is that comparing nums1[k/2] and nums2[k-k/2]. If nums1 is smaller, then only needing to find the postion in nums1[k/2:].
 
 
 
