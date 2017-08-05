@@ -61,7 +61,7 @@ def findK(self, nums1, nums2, k):
     else:
         return self.findK(nums1, nums2[pn:], k-pn)
 ```
-The critical point is that comparing nums1[k/2] and nums2[k-k/2]. If nums1 is smaller, then only needing to find the postion in nums1[k/2:] and nums2.
-[Complete codes](https://raw.githubusercontent.com/deniswu1202/LeetCode/master/src/4_Median_of_Two_Sorted_Arrays.py).  
+The critical point is that comparing nums1[k/2] and nums2[k-k/2]. If nums1 is smaller, then only needing to find the postion in nums1[k/2:] and nums2.  
+[Complete codes](://github.com/deniswu1202/LeetCode/blob/master/src/4_Median_of_Two_Sorted_Arrays.py).  
 
 
