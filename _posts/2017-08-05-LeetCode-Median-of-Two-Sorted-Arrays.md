@@ -32,6 +32,7 @@ Find the median of the two sorted arrays. The overall run time complexity should
 
 ## Solution
 
+### [1]O(m)
 If the time complexity is O(m+n), that is relatively easy. Using two pointer poiting to the small postion of each array. Then find the first (m+n)/2 postion.  
 The code is like below.
 ```python
@@ -70,11 +71,7 @@ def findMedianSortedArrays(self, nums1, nums2):
 ```
 The diffcult is how to deal with the lenght of the 2 array is even number that should be dealt with respectively.
 
-
-
-
-
-
+### [2]O(log (m+n))
 
 Assume the position of median is k of sorted array of the two arrays.  
 
