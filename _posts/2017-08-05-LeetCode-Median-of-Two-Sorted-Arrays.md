@@ -56,7 +56,10 @@ def findMedianSortedArrays(self, nums1, nums2):
         return nums1[i] if nums1[i]<nums2[j] else nums2[j]
     else:
         if i == m:
-            return (nums2[j]+nums2[j+1])/2.0
+            if i == m or j == n:  
+                return nums1[i] if j == n else  nums2[j]  
+            else : 
+                return (nums2[j]+nums2[j+1])/2.0
         elif j == n:
             return (nums1[i]+nums1[i+1])/2.0
         else:
