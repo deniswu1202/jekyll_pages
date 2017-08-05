@@ -2,6 +2,7 @@
 layout: post
 title:  "Get an mail with .eml format from Microsoft Outlook"
 date:   2017-08-03 19:18:00 +0800
+tag: mail
 categories: mail
 ---
 
