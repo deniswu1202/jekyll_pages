@@ -38,7 +38,9 @@ Here revising it using O(n2) space. With space recoding palimdromes found previo
 
 Each palimdrome is made up of smaller palimdrome. The length difference is 1 or 2.  
 > "bab" -> "a"+"b"*2, 1+2
+
 > "baab" -> "aa"+"b"*2, 2+2
+
 > "cbabc" -> "bab"+"b"*2, 3+2
 
 So the problem is simplified to judge a string with 2 condition.  
