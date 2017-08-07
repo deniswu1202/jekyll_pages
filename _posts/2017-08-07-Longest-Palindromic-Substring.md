@@ -27,6 +27,8 @@ Given a string s, find the longest palindromic substring in s. You may assume th
 >Output: "bb"  
 
 
+
+
 ## Solution
 
 [1]O(n2)  
