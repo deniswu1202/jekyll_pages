@@ -2,7 +2,7 @@
 layout: post
 title: "Longest Palindromic Substring"
 categories: LeetCode
-tag: algorithm  LeetCode
+tag: Baidu ife JavaScript 正则 Regular 
 ---
  
 * content
