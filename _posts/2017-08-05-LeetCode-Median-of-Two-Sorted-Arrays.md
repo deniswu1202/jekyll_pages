@@ -21,14 +21,15 @@ Find the median of the two sorted arrays. The overall run time complexity should
 >
 > The median is 2.0
 
+
+
+
 **Example 2:**
 
 > nums1 = [1, 2]  
 > nums2 = [3, 4]
 > 
 > The median is (2 + 3)/2 = 2.5
-
-
 
 ## Solution
 
