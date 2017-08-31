@@ -16,6 +16,8 @@ tag: curl
 This command will show the page on terminal.
 
 
+
+
 2) *Save the page*
 > curl -o page.html https://www.google.com
 
