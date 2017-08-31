@@ -14,6 +14,7 @@ tag: curl
 > curl https://www.google.com
 
 This command will show the page on terminal.
+<br /> 
 
 
 
@@ -27,6 +28,7 @@ You can redirect the output of the step 1 to a file with '>'.
 But with '-o' optionik, it would be more elegant. 
 
 It will save the page to file. And show status of the action.
+<br /> 
 
 
 3) **Proxy**
@@ -35,6 +37,7 @@ It will save the page to file. And show status of the action.
 While an URL cannot be accessed, perhaps the proxy hasn't been specified.
 
 With '-x' option, you can specify the proxy server and port.
+<br /> 
 
 
 4) **Header info**
@@ -43,6 +46,7 @@ With '-x' option, you can specify the proxy server and port.
 Sometimes, we may need to check the header information.
 
 The '-D' option would work.
+<br /> 
 
 5) **Cookie**
 > curl -o page.html -c cookie1.txt https://www.google.com
@@ -50,11 +54,13 @@ The '-D' option would work.
 Modern brower can deal with cookie automaticly, but how can curl...
 
 The '-c' option would save the cookie when page is saved.
+<br /> 
 
 6) **Access with cookie**
 > curl -o page.html -c cookie2.txt -b cookie1.txt https://www.google.com
 
 The '-b' option will make curl request URL with cookie.
+<br /> 
 
 
 
