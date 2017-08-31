@@ -10,7 +10,7 @@ tag: curl
 
 > Syntax: curl [option] URL
 
-1) *Basic using*
+1) *_Basic using_*
 > curl https://www.google.com
 
 This command will show the page on terminal.
@@ -18,20 +18,20 @@ This command will show the page on terminal.
 
 
 
-2) *Save the page*
+2) *_Save the page_*
 > curl -o page.html https://www.google.com
 
 You can redirect the output of the step 1 to a file wiht '>'.
 
-But with '-o' option would be more elegant. 
+But with '_-o_' option would be more elegant. 
 
 It will save the page to file. And show status of the action.
 
-3) *Proxy*
+3) *_Proxy_*
 > curl -x 10.1.1.1:8080 -o page.html https://www.google.com
 
 While an URL cannot be accessed, perhaps the proxy hasn't been specified.
 
-With '-x' option that http can use, you can specify the server and port.
+With '_-x_' option that http can use, you can specify the server and port.
 
 
