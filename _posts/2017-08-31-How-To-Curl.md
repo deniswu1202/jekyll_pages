@@ -18,14 +18,16 @@ This command will show the page on terminal.
 
 
 
+
 2) **Save the page**
 > curl -o page.html https://www.google.com
 
 You can redirect the output of the step 1 to a file wiht '>'.
 
-But with '-o' option would be more elegant. 
+But with '-o' optionik, it would be more elegant. 
 
 It will save the page to file. And show status of the action.
+
 
 3) **Proxy**
 > curl -x 10.1.1.1:8080 -o page.html https://www.google.com
@@ -33,5 +35,38 @@ It will save the page to file. And show status of the action.
 While an URL cannot be accessed, perhaps the proxy hasn't been specified.
 
 With '-x' option that http can use, you can specify the server and port.
+
+
+4) **Header info**
+> curl -o page.html -D header.txt https://www.google.com
+
+Sometimes, we may need to check the header information.
+
+The '-D' option would work.
+
+5) **Cookie**
+> curl -o page.html -c cookie1.txt https://www.google.com
+
+Modern brower can deal with cookie automaticly, but how can curl...
+
+The '-c' option would save the cookie when page is saved.
+
+6) **Access with cookie**
+> curl -o page.html -c cookie2.txt -b cookie1.txt https://www.google.com
+
+The '-b' option will make curl request URL with cookie.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
