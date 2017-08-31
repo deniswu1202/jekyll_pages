@@ -10,13 +10,11 @@ tag: curl
 
 > Syntax: curl [option] URL
 
-
-
-
 1) *Basic using*
 > curl https://www.google.com
 
 This command will show the page on terminal.
+
 
 2) *Save the page*
 > curl -o page.html https://www.google.com
