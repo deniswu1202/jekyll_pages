@@ -22,7 +22,7 @@ This command will show the page on terminal.
 2) **Save the page**
 > curl -o page.html https://www.google.com
 
-You can redirect the output of the step 1 to a file wiht '>'.
+You can redirect the output of the step 1 to a file with '>'.
 
 But with '-o' optionik, it would be more elegant. 
 
@@ -34,7 +34,7 @@ It will save the page to file. And show status of the action.
 
 While an URL cannot be accessed, perhaps the proxy hasn't been specified.
 
-With '-x' option that http can use, you can specify the server and port.
+With '-x' option, you can specify the proxy server and port.
 
 
 4) **Header info**
