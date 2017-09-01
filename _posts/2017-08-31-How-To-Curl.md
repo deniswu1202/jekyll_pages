@@ -8,7 +8,7 @@ tag: curl
 * content
 {:toc}
 ## Syntax
-> ** curl [option] URL**
+> **curl [option] URL**
 
 ## Detailed usage
 1) **Basic using**
