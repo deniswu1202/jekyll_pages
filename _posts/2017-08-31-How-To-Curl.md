@@ -56,7 +56,14 @@ The '-c' option would save the cookie when page is saved.
 
 The '-b' option will make curl request URL with cookie.
 
+7) **Redirect**
+> curl **-o** page.html -L https://www.google.com
+If the server reports that the requested page has moved to a different location 
+(indicated with a Location: header and a 3XX response code), this option will make curl redo the request on the new place.
 
+
+
+To be continued...
 
 
 
