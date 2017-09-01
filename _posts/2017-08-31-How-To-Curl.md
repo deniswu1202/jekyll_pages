@@ -7,9 +7,10 @@ tag: curl
  
 * content
 {:toc}
+## Syntax
+> ** curl [option] URL**
 
-> **<span style="color:red">Syntax: curl [option] URL</span>**
-
+## Detailed usage
 1) **Basic using**
 > curl https://www.google.com
 
