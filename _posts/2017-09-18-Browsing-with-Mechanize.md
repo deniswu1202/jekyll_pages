@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 
-categories: 
-tag: 
+title: Browsing with Mechanize
+categories: Web
+tag: python, web
 ---
  
 * content
