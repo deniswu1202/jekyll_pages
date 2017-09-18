@@ -118,6 +118,7 @@ To go on the mechanize browser object must have a form selected
 ```python
 br.select_form("form1")        # works when form has a name
 br.form = list(br.forms())[0]  # use when form is unnamed
+br.select_form(nr=1)           # choose when you know which form is
 ```
 
 ## Submit the form
