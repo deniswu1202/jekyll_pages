@@ -34,6 +34,7 @@ print response1.geturl()
 print response1.info()  # headers
 print response1.read()  # body
 ```
+
 To get the response code from a website, you can the response.code
 
 ```python
@@ -67,6 +68,7 @@ import re
 from mechanize import Browser
 br = Browser()
 ```
+
 Ignore robots.txt
 
 ```python
