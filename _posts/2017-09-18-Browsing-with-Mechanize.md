@@ -100,7 +100,6 @@ Find the link to foofighters.com; why did we run a search?
 
 ```python
 resp = None
-
 for link in br.links():
     siteMatch = re.compile( 'www.foofighters.com' ).search( link.url )
 
