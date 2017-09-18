@@ -16,19 +16,18 @@ Here is an example on how to use it in a program.
 
 ```python
 import mechanize
-
 br = mechanize.Browser()
-
 br.open("http://www.example.com/")
 ```
+
+
+
 
 Follow second link with element text matching regular expression
 
 ```python
 response1 = br.follow_link(text_regex=r"cheeses*shop", nr=1)
-
 assert br.viewing_html()
-
 print br.title()
 print response1.geturl()
 print response1.info()  # headers
@@ -39,11 +38,8 @@ To get the response code from a website, you can the response.code
 
 ```python
 from mechanize import Browser
-
 browser = Browser()
-
 response = browser.open('http://www.google.com')
-
 print response.code
 ```
 
