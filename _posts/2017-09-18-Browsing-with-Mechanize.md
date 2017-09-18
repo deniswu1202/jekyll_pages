@@ -95,7 +95,7 @@ br.set_handle_refresh(False)  # can sometimes hang without this
 br.addheaders =   	      	# [('User-agent', 'Firefox')]
 ```
 
-###Open a webpage
+## Open a webpage
 Open a webpage and inspect its contents
 
 ```python
@@ -116,7 +116,7 @@ for form in br.forms():
 To go on the mechanize browser object must have a form selected
 
 ```python
-br.select_form("form1")         # works when form has a name
+br.select_form("form1")        # works when form has a name
 br.form = list(br.forms())[0]  # use when form is unnamed
 ```
 
