@@ -53,9 +53,6 @@ for f in br.forms():
     print f
 ```
 
-I found this post at [Github](http://stockrt.github.com) that very accurate describes how
-to emulate a browser in Python using mechanize.
-
 Browsing with Python ignoring robots.txt
 
 ```python
