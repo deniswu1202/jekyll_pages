@@ -66,6 +66,9 @@ br = Browser()
 br.set_handle_robots(False)
 ```
 
+Google demands a user-agent that isn't a robot
+
+```python 
 br.addheaders = [('User-agent', 'Firefox')]
 ```
 
