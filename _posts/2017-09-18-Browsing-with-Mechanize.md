@@ -68,7 +68,7 @@ Google demands a user-agent that isn't a robot
 ```python 
 br.addheaders = [('User-agent', 'Firefox')]
 ```
-Using coockie. Some website may need cookie to further browser pages.
+Using coockie. Some website may need cookie to access pages.
 
 ```python
 import mechanize  
