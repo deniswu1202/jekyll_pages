@@ -68,10 +68,15 @@ Google demands a user-agent that isn't a robot
 ```python 
 br.addheaders = [('User-agent', 'Firefox')]
 ```
-
-Retrieve the Google home page, saving the response
+Using coockie. Some website may need cookie to further browser pages.
 
 ```python
-br.open( "http://www.google.com" )
+import mechanize  
+import cookielib 
+br = mechanize.Browser()  
+cj = cookielib.LWPCookieJar()  
+br.set_cookiejar(cj)##关联cookies  
 ```
+
+
 The script above is split up to make it easier to read.
