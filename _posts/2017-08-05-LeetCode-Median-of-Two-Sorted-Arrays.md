@@ -2,7 +2,7 @@
 layout: post
 title: "Median of Two Sorted Arrays"
 categories: LeetCode
-tag: LeetCode
+tags: algorithm python
 ---
  
 * content

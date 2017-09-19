@@ -21,9 +21,9 @@ touch ${post_name}
 
 echo "---" > ${post_name}
 echo "layout: post" >> ${post_name}
-echo "title: " >> ${post_name}
+echo "title: $*" >> ${post_name}
 echo "categories: " >> ${post_name}
-echo "tag: " >> ${post_name}
+echo "tags: " >> ${post_name}
 echo "---" >> ${post_name}
 
 echo " " >> ${post_name}
