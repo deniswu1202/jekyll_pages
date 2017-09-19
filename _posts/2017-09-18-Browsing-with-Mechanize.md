@@ -2,7 +2,7 @@
 layout: post
 title: Browsing with Mechanize
 categories: Web
-tag: python web
+tags: python web
 ---
  
 * content
